@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# Generated audio/transcription outputs
+audio.wav
+transcript.txt
+transcript.srt
+
+# Large/source media files
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.mp3
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
