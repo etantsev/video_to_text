@@ -40,3 +40,6 @@ with open("transcript.srt", "w", encoding="utf-8") as srt:
         srt.write(segment.text.strip() + "\n\n")
 
 print(f"Wrote {len(all_segments)} segments to transcript.txt and transcript.srt")
+
+def test():
+    pass
